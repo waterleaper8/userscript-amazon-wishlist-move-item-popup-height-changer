@@ -25,7 +25,7 @@
           popups.forEach((popup) => {
             popup.style.height = "360px"
           })
-        }, 1500)
+        }, 2000)
       })
     }
   })
