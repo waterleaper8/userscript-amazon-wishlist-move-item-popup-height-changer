@@ -13,16 +13,14 @@
 ;(function () {
   "use strict"
   let popupBtns = document.querySelectorAll("input.a-button-input")
-  let indexes = []
   popupBtns.forEach((btn, i) => {
-    const label = btn.getAttribute("aria-labelledby")
     btn.addEventListener("click", () => {
       setTimeout(() => {
         const popups = document.querySelectorAll(".a-popover-inner")
         popups.forEach((popup) => {
           popup.style.height = "360px"
         })
-      }, 2000)
+      }, 1500)
     })
   })
 })()
