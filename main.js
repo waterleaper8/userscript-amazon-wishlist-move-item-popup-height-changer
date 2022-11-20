@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazonほしいものリスト移動ポップアップ拡大
 // @namespace    https://next.waterleaper.net/
-// @version      0.2
+// @version      0.2.1
 // @description  Amazonのほしいものリスト移動ポップアップを拡大します
 // @author       waterleaper
 // @match        https://www.amazon.co.jp/hz/wishlist/ls/*
